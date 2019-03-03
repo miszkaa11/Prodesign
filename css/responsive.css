@@ -1,0 +1,36 @@
+@media all and (max-width: 1200px) {
+	.team-img img {
+		width: 250px;
+		height: 250px;
+		object-fit: cover;
+	}
+}
+
+@media all and (max-width: 991px) {
+	#main-nav,
+	#main-nav.transparentBg {
+		background-color: #fff;
+	}
+	
+	#main-nav a,
+	#main-nav.transparentBg a {
+		color: rgb(14, 216, 214);
+	}
+	
+	.team-img img {
+		width: 200px;
+		height: 200px;
+		object-fit: cover;
+	}
+}
+
+@media all and (max-width: 767px) {
+	#contact .left-form input {
+		margin-bottom: 15px;
+	}
+	
+	.social-media {
+		margin-bottom: 30px;
+	}
+	
+}
